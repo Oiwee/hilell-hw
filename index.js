@@ -22,7 +22,7 @@ const addition = (a, b) => +a + +b
 // строки нельзя минусовать, делить, умножать. Поэтому необязательно приводить их (a,b) в number
 const subtraction = (a, b) => a-b
 const multiplication = (a, b) => a*b
-const devide = (a, b) => a/b
+const divide = (a, b) => a/b
 
 
 //Тут выводим string + number
@@ -32,4 +32,4 @@ console.log(`результат: ${numberOne} + ${numberTwo} = ${addition(number
 
 console.log(`результат: ${numberOne} - ${numberTwo} =`, subtraction(numberOne, numberTwo))
 console.log(`результат: ${numberOne} * ${numberTwo} =`, multiplication(numberOne, numberTwo))
-console.log(`результат: ${numberOne} / ${numberTwo} =`, devide(numberOne, numberTwo))
+console.log(`результат: ${numberOne} / ${numberTwo} =`, divide(numberOne, numberTwo))
