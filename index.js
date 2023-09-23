@@ -16,7 +16,7 @@ if (action) {
     if (action==='sub') {
         alert(`${numberOne} - ${numberTwo} = ${subtraction(numberOne, numberTwo)}`)
     }
-    // action==='add' && alert(`${numberOne} + ${numberTwo} = ${subtraction(numberOne, numberTwo)}`)
+    // action==='sub' && alert(`${numberOne} + ${numberTwo} = ${subtraction(numberOne, numberTwo)}`)
     if (action==='mult') {
         alert(`${numberOne} * ${numberTwo} = ${multiplication(numberOne, numberTwo)}`)
     }
